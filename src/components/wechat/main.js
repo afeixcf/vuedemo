@@ -98,9 +98,9 @@ Wechat.prototype = {
     menuShare: function (params) {
 
         let _defualt_params = {
-            imgUrl: Conf.domainRoot + 'externals/share_logo.jpg',
-            title: '人工智能算命Tomorrow，带你重新发现自己！',
-            desc: '能够解码你的命运与人格，能够帮你了解和预测人际关系。',
+            imgUrl: Conf.domainRoot + 'externals/404.jpeg',
+            title: '分享标题',
+            desc: '分享描述',
             link: Conf.domainRoot + 'default.html', // 默认链接到说明文章。
             //区分朋友圈和朋友分享
             timelineTitle: '',
